@@ -42,6 +42,9 @@ The `api/` directory includes a simple content API used during development. It l
 ### Recipe Search
 Use `searchRecipesByIngredients()` from `api/recipeSearch.js` to find recipes that can be made with ingredients you have available. The function attempts to query a remote endpoint and falls back to filtering the local recipe data when offline.
 
+### Ingredient Consolidation
+`utils/ingredientUtils.js` exposes `consolidateIngredients()` which merges the ingredient lists from selected recipes. Pass in the meal objects and the number of diners to get a combined shopping list scaled for that party size.
+
 ## Meal Plans
 
 Plan meals using the `useMealPlans` store and display them over different time
