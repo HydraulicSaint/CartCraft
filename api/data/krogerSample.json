@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "productId": "1", "description": "Kroger Sample Bread", "price": 2.49 },
+    { "productId": "2", "description": "Kroger Sample Milk", "price": 3.19 },
+    { "productId": "3", "description": "Kroger Sample Eggs", "price": 1.79 }
+  ]
+}
