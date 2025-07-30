@@ -30,6 +30,9 @@ This repo currently contains minimal scaffolding to kick off development. Add sc
 
 The `api/` directory includes a simple content API used during development. It loads JSON files from `api/data/` to mimic server responses. Use `getSplashText` or `getAppContent` from `api/contentApi.js` to access this data.
 
+### Local Recipe API
+`api/recipeApi.js` works the same way for recipes, returning data from `api/data/recipes.json`. In production this module will call the Spoonacular API instead of local JSON files.
+
 ## Meal Plans
 
 Plan meals using the `useMealPlans` store and display them over different time

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Spaghetti Bolognese",
+    "ingredients": ["spaghetti", "ground beef", "tomato sauce"],
+    "instructions": "Cook pasta. Brown beef. Mix with sauce. Combine."
+  },
+  {
+    "id": "2",
+    "title": "Chicken Stir Fry",
+    "ingredients": ["chicken", "vegetables", "soy sauce"],
+    "instructions": "Stir fry chicken and veggies. Add sauce. Serve with rice."
+  }
+]
