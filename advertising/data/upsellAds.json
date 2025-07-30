@@ -1,0 +1,18 @@
+{
+  "ads": [
+    {
+      "id": "ad1",
+      "title": "Premium Organic Tomato Sauce",
+      "category": "grocery",
+      "description": "Upgrade your meal with the richest organic sauce.",
+      "price": 6.99
+    },
+    {
+      "id": "ad2",
+      "title": "Chef's Grade Stainless Pan",
+      "category": "cookware",
+      "description": "Cook like a professional with this high quality pan.",
+      "price": 49.99
+    }
+  ]
+}
