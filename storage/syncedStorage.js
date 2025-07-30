@@ -25,6 +25,11 @@ export async function loadLocal(key) {
 
 export async function syncToRemote() {
   try {
+    const { user, cloudOptOut } = useStore.getState();
+    if (cloudOptOut) {
+      console.log('Cloud sync disabled by user');
+      return;
+    }
     const keys = (await AsyncStorage.getAllKeys()).filter(k => k.startsWith(STORAGE_PREFIX));
     const entries = {};
     for (const k of keys) {
@@ -33,7 +38,6 @@ export async function syncToRemote() {
         entries[k.replace(STORAGE_PREFIX, '')] = JSON.parse(value);
       }
     }
-    const user = useStore.getState().user;
     if (!user) {
       console.log('No user credentials found, skipping sync');
       return;
