@@ -25,3 +25,7 @@ Lightweight scaffolding for a React Native app using Expo.
    ```
 
 This repo currently contains minimal scaffolding to kick off development. Add screens and components under the `components` directory and stores under `store`.
+
+## Local Content API
+
+The `api/` directory includes a simple content API used during development. It loads JSON files from `api/data/` to mimic server responses. Use `getSplashText` or `getAppContent` from `api/contentApi.js` to access this data.
