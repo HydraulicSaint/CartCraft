@@ -33,6 +33,9 @@ The `api/` directory includes a simple content API used during development. It l
 ### Local Recipe API
 `api/recipeApi.js` works the same way for recipes, returning data from `api/data/recipes.json`. In production this module will call the Spoonacular API instead of local JSON files.
 
+### Recipe Search
+Use `searchRecipesByIngredients()` from `api/recipeSearch.js` to find recipes that can be made with ingredients you have available. The function attempts to query a remote endpoint and falls back to filtering the local recipe data when offline.
+
 ## Meal Plans
 
 Plan meals using the `useMealPlans` store and display them over different time
