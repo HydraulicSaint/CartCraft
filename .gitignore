@@ -2,3 +2,8 @@ node_modules/
 .expo/
 .DS_Store
 .env
+
+# Analytics output
+analytics/export.json
+analytics/deidentified.json
+analytics/insights.json
