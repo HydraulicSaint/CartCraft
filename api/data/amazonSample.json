@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "asin": "B001", "title": "Amazon Sample Product A", "price": 12.99 },
+    { "asin": "B002", "title": "Amazon Sample Product B", "price": 25.5 },
+    { "asin": "B003", "title": "Amazon Sample Product C", "price": 7.99 }
+  ]
+}
