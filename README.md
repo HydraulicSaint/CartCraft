@@ -37,6 +37,8 @@ The `api/` directory includes a simple content API used during development. It l
 `api/walmartApi.js` retrieves product listings and prices from the Walmart API. When the remote service is unavailable, it returns sample results from `api/data/walmartSample.json`. Set the `WALMART_API_KEY` environment variable to enable live queries.
 ### Amazon Product API
 `api/amazonApi.js` queries Amazon for product information and pricing. If the network request fails the module falls back to `api/data/amazonSample.json`. Set the `AMAZON_API_KEY` environment variable to enable live lookups.
+### Kroger Product API
+`api/krogerApi.js` retrieves product listings and prices from the Kroger API. When the remote service is unavailable, it falls back to `api/data/krogerSample.json`. Set the `KROGER_CLIENT_ID` and `KROGER_CLIENT_SECRET` environment variables to enable live queries.
 ### Recipe Search
 Use `searchRecipesByIngredients()` from `api/recipeSearch.js` to find recipes that can be made with ingredients you have available. The function attempts to query a remote endpoint and falls back to filtering the local recipe data when offline.
 
