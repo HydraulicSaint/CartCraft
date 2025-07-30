@@ -29,3 +29,7 @@ This repo currently contains minimal scaffolding to kick off development. Add sc
 ## Local Content API
 
 The `api/` directory includes a simple content API used during development. It loads JSON files from `api/data/` to mimic server responses. Use `getSplashText` or `getAppContent` from `api/contentApi.js` to access this data.
+
+## License
+
+This project is provided for learning or licensed use only. See [LICENSE](LICENSE) for details.
