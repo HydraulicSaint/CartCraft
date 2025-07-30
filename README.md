@@ -53,6 +53,11 @@ Use `searchRecipesByIngredients()` from `api/recipeSearch.js` to find recipes th
 Plan meals using the `useMealPlans` store and display them over different time
 periods with the `MealPlanViewer` component. Supported periods are per meal, per
 day, per week and per year.
+
+## Pantry Items
+
+Keep a list of ingredients you already have on hand with the `usePantry` store. Use the `PantryInput` component to let users add or remove items. Stored entries sync locally via `AsyncStorage` for use when searching recipes.
+
 =======
 ## Synced Storage
 
