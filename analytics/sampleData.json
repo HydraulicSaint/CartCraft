@@ -1,0 +1,17 @@
+[
+  {
+    "userId": "user1",
+    "mealPlans": [
+      {"id": 1, "title": "Plan A"},
+      {"id": 2, "title": "Plan B"}
+    ],
+    "preferences": ["vegan", "low-carb"]
+  },
+  {
+    "userId": "user2",
+    "mealPlans": [
+      {"id": 3, "title": "Plan C"}
+    ],
+    "preferences": ["vegetarian"]
+  }
+]
