@@ -33,3 +33,8 @@ The `api/` directory includes a simple content API used during development. It l
 ## Synced Storage
 
 The `storage/` directory contains `syncedStorage.js` which stores data locally using AsyncStorage and periodically backs it up to a remote endpoint. The module automatically pulls user credentials from `useStore` to include with sync requests. Call `startSync()` after login to begin the process.
+
+## License
+
+This project is provided for learning or licensed use only. See [LICENSE](LICENSE) for details.
+
