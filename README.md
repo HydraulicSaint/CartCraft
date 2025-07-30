@@ -29,3 +29,7 @@ This repo currently contains minimal scaffolding to kick off development. Add sc
 ## Local Content API
 
 The `api/` directory includes a simple content API used during development. It loads JSON files from `api/data/` to mimic server responses. Use `getSplashText` or `getAppContent` from `api/contentApi.js` to access this data.
+
+## Synced Storage
+
+The `storage/` directory contains `syncedStorage.js` which stores data locally using AsyncStorage and periodically backs it up to a remote endpoint. The module automatically pulls user credentials from `useStore` to include with sync requests. Call `startSync()` after login to begin the process.
