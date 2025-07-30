@@ -4,6 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { getSplashText } from './api/contentApi';
 import usePlatformAuth from './auth/usePlatformAuth';
 import useStore from './store/useStore';
+import { startSync, stopSync } from './storage/syncedStorage';
 
 export default function App() {
   const [splash, setSplash] = useState('');
@@ -17,6 +18,9 @@ export default function App() {
   useEffect(() => {
     if (user) {
       setUser(user);
+      startSync();
+    } else {
+      stopSync();
     }
   }, [user]);
 
