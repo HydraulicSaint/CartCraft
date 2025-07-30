@@ -33,6 +33,9 @@ The `api/` directory includes a simple content API used during development. It l
 ### Local Recipe API
 `api/recipeApi.js` works the same way for recipes, returning data from `api/data/recipes.json`. In production this module will call the Spoonacular API instead of local JSON files.
 
+### Walmart Product API
+`api/walmartApi.js` retrieves product listings and prices from the Walmart API. When the remote service is unavailable, it returns sample results from `api/data/walmartSample.json`. Set the `WALMART_API_KEY` environment variable to enable live queries.
+
 ## Meal Plans
 
 Plan meals using the `useMealPlans` store and display them over different time

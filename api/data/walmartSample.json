@@ -1,0 +1,7 @@
+{
+  "items": [
+    { "itemId": 1, "name": "Sample Product A", "salePrice": 9.99 },
+    { "itemId": 2, "name": "Sample Product B", "salePrice": 19.99 },
+    { "itemId": 3, "name": "Sample Product C", "salePrice": 5.49 }
+  ]
+}
